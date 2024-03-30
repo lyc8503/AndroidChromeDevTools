@@ -48,6 +48,10 @@ Go back to the phone and start Termux, using `./devtools.py 1234` to run this sc
 
 Using this script on a phone with ROOT access is even easier, just open Termux and run `. /devtools.py` (no additional arguments required).
 
+### Known issues
+
+- Devtools is not adapted for mobile, interaction may be somewhat difficult (requiring multiple zooms and drags), but it has full functionality.
+
 ### Troubleshooting
 
 Chrome often closes itself in the background to save memory. If a connection failure occurs, switch to Chrome, confirm that Chrome and the tab you need to debug are still running, and then try again.
